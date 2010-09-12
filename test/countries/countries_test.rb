@@ -10,7 +10,7 @@ class CountriesTest < Test::Unit::TestCase
       Decoder.i18n = :en
     end
 
-    context "a new object" do
+    context "A new object" do
       should "load the yaml" do
         Decoder.expects(:load_yaml).returns({:en => {"US" => {:name => "United States", :states => {"MA" => "Massachusetts"}}}})
         countries = Decoder::Countries.new
