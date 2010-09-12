@@ -1,3 +1,4 @@
+require 'yaml'
 require 'common_methods'
 require 'decoder/countries'
 require 'decoder/country'
