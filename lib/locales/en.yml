@@ -607,66 +607,170 @@
   US:
     :name: United States
     :states:
-      VA: Virginia
-      NY: New York
-      ND: North Dakota
-      AL: Alabama
-      HI: Hawaii
-      MN: Minnesota
-      DE: Delaware
-      RI: Rhode Island
-      MD: Maryland
-      NE: Nebraska
-      CO: Colorado
-      IA: Iowa
-      MO: Missouri
-      PR: Puerto Rico
-      WY: Wyoming
-      ME: Maine
-      KY: Kentucky
-      OR: Oregon
-      IL: Illinois
       MP: Northern Mariana Islands
-      GU: Guam
-      AZ: Arizona
-      OH: Ohio
-      TX: Texas
-      TN: Tennessee
-      GA: Georgia
-      NH: New Hampshire
+      MT: 
+      - Montana
+      - "30"
+      NE: 
+      - Nebraska
+      - "31"
+      VA: 
+      - Virginia
+      - "51"
+      ME: 
+      - Maine
+      - "23"
       MH: Marshall Islands
-      ID: Idaho
-      IN: Indiana
-      SC: South Carolina
-      OK: Oklahoma
-      NJ: New Jersey
-      SD: South Dakota
-      CT: Connecticut
-      MI: Michigan
-      AR: Arkansas
-      FL: Florida
-      MS: Mississippi
-      PA: Pennsylvania
-      FM: Federated States Of Micronesia
-      MT: Montana
-      PW: Palau
-      WI: Wisconsin
+      TN: 
+      - Tennessee
+      - "47"
+      LA: 
+      - Louisiana
+      - "22"
+      MS: 
+      - Mississippi
+      - "28"
+      PA: 
+      - Pennsylvania
+      - "42"
+      ND: 
+      - North Dakota
+      - "38"
       AS: American Samoa
-      VI: Virgin Islands
-      KS: Kansas
-      NV: Nevada
-      CA: California
-      VT: Vermont
-      NM: New Mexico
-      WV: West Virginia
-      MA: Massachusetts
-      DC: District Of Columbia
-      UT: Utah
-      WA: Washington
-      AK: Alaska
-      LA: Louisiana
-      NC: North Carolina
+      SC: 
+      - South Carolina
+      - "45"
+      NC: 
+      - North Carolina
+      - "37"
+      KY: 
+      - Kentucky
+      - "21"
+      MI: 
+      - Michigan
+      - "26"
       AE: Armed Forces
+      DE: 
+      - Delaware
+      - "10"
+      MO: 
+      - Missouri
+      - "29"
+      VT: 
+      - Vermont
+      - "50"
+      WI: 
+      - Wisconsin
+      - "55"
+      OH: 
+      - Ohio
+      - "39"
+      UT: 
+      - Utah
+      - "49"
+      NY: 
+      - New York
+      - "36"
+      SD: 
+      - South Dakota
+      - "46"
+      DC: 
+      - District of Columbia
+      - "11"
+      AL: 
+      - Alabama
+      - "01"
+      VI: Virgin Islands
+      GA: 
+      - Georgia
+      - "13"
+      TX: 
+      - Texas
+      - "48"
+      WY: 
+      - Wyoming
+      - "56"
+      IL: 
+      - Illinois
+      - "17"
+      AR: 
+      - Arkansas
+      - "05"
+      RI: 
+      - Rhode Island
+      - "44"
+      AZ: 
+      - Arizona
+      - "04"
+      OR: 
+      - Oregon
+      - "41"
+      CA: 
+      - California
+      - "06"
+      IN: 
+      - Indiana
+      - "18"
+      CO: 
+      - Colorado
+      - 08
+      PW: Palau
+      MD: 
+      - Maryland
+      - "24"
+      WA: 
+      - Washington
+      - "53"
+      CT: 
+      - Connecticut
+      - 09
+      WV: 
+      - West Virginia
+      - "54"
+      FL: 
+      - Florida
+      - "12"
+      HI: 
+      - Hawaii
+      - "15"
+      ID: 
+      - Idaho
+      - "16"
+      NM: 
+      - New Mexico
+      - "35"
+      MN: 
+      - Minnesota
+      - "27"
+      GU: Guam
+      MA: 
+      - Massachusetts
+      - "25"
+      AK: 
+      - Alaska
+      - "02"
+      NJ: 
+      - New Jersey
+      - "34"
+      PR: 
+      - Puerto Rico
+      - "72"
+      FM: Federated States Of Micronesia
+      NV: 
+      - Nevada
+      - "32"
+      IA: 
+      - Iowa
+      - "19"
+      KS: 
+      - Kansas
+      - "20"
+      OK: 
+      - Oklahoma
+      - "40"
+      NH: 
+      - New Hampshire
+      - "33"
   BV:
     :name: Bouvet Island
     :states: {}

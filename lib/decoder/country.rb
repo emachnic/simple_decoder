@@ -24,7 +24,17 @@ module Decoder
     def [](_code)
       _code = _code.to_s.upcase
       state = states[_code]
-      Decoder::State.new(:code => _code, :name => state)
+      if state.is_a?(Array)
+        fips  = state.last
+        state = state.first
+      end
+      Decoder::State.new(:code => _code, :name => state, :fips => fips)
+    end
+    
+    def by_fips(fips)
+      fips = fips.to_s
+      state = states.detect { |k,v| v.include?(fips) if v.is_a?(Array) }
+      self[state.first]
     end
   end
 end
