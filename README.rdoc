@@ -12,6 +12,20 @@
  
  Currently the yaml files are still quite incomplete. Please fork and populate!
  
+= FIPS
+ http://en.wikipedia.org/wiki/Federal_Information_Processing_Standard
+ Certain US States have FIPS codes. You can either get the code for a state
+ or look up a state by its FIPS code:
+ 
+ >> Decoder.i18n = :en
+ >> country = Decoder::Countries[:US]
+ >> state = country[:MA]
+ >> state.fips
+ => 25
+ >> state = country.by_fips(25)
+ >> state.to_s
+ => "Massachusetts"
+ 
 = i18n
  When adding a new language please use the ISO 639-1 Code 2-letter standard.
  You can find the appropriate code for a given language here:
