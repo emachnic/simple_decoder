@@ -7,8 +7,7 @@
 
 = Installation
 
-  Add to Gemfile
-
+Add to Gemfile
   gem 'decoder', :git => 'git@github.com:emachnic/simple_decoder.git'
 
 = Usage
