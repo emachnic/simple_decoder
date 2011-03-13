@@ -607,170 +607,67 @@
   US:
     :name: United States
     :states:
-      MP: Northern Mariana Islands
-      MT: 
-      - Montana
-      - "30"
-      NE: 
-      - Nebraska
-      - "31"
-      VA: 
-      - Virginia
-      - "51"
-      ME: 
-      - Maine
-      - "23"
-      MH: Marshall Islands
-      TN: 
-      - Tennessee
-      - "47"
-      LA: 
-      - Louisiana
-      - "22"
-      MS: 
-      - Mississippi
-      - "28"
-      PA: 
-      - Pennsylvania
-      - "42"
-      ND: 
-      - North Dakota
-      - "38"
+      #AE: Armed Forces
+      AL: Alabama
+      AK: Alaska
       AS: American Samoa
-      SC: 
-      - South Carolina
-      - "45"
-      NC: 
-      - North Carolina
-      - "37"
-      KY: 
-      - Kentucky
-      - "21"
-      MI: 
-      - Michigan
-      - "26"
-      AE: Armed Forces
-      DE: 
-      - Delaware
-      - "10"
-      MO: 
-      - Missouri
-      - "29"
-      VT: 
-      - Vermont
-      - "50"
-      WI: 
-      - Wisconsin
-      - "55"
-      OH: 
-      - Ohio
-      - "39"
-      UT: 
-      - Utah
-      - "49"
-      NY: 
-      - New York
-      - "36"
-      SD: 
-      - South Dakota
-      - "46"
-      DC: 
-      - District of Columbia
-      - "11"
-      AL: 
-      - Alabama
-      - "01"
-      VI: Virgin Islands
-      GA: 
-      - Georgia
-      - "13"
-      TX: 
-      - Texas
-      - "48"
-      WY: 
-      - Wyoming
-      - "56"
-      IL: 
-      - Illinois
-      - "17"
-      AR: 
-      - Arkansas
-      - "05"
-      RI: 
-      - Rhode Island
-      - "44"
-      AZ: 
-      - Arizona
-      - "04"
-      OR: 
-      - Oregon
-      - "41"
-      CA: 
-      - California
-      - "06"
-      IN: 
-      - Indiana
-      - "18"
-      CO: 
-      - Colorado
-      - 08
-      PW: Palau
-      MD: 
-      - Maryland
-      - "24"
-      WA: 
-      - Washington
-      - "53"
-      CT: 
-      - Connecticut
-      - 09
-      WV: 
-      - West Virginia
-      - "54"
-      FL: 
-      - Florida
-      - "12"
-      HI: 
-      - Hawaii
-      - "15"
-      ID: 
-      - Idaho
-      - "16"
-      NM: 
-      - New Mexico
-      - "35"
-      MN: 
-      - Minnesota
-      - "27"
-      GU: Guam
-      MA: 
-      - Massachusetts
-      - "25"
-      AK: 
-      - Alaska
-      - "02"
-      NJ: 
-      - New Jersey
-      - "34"
-      PR: 
-      - Puerto Rico
-      - "72"
+      AZ: Arizona
+      AR: Arkansas
+      CA: California
+      CO: Colorado
+      CT: Connecticut
+      DE: Delaware
+      DC: District of Columbia
       FM: Federated States Of Micronesia
-      NV: 
-      - Nevada
-      - "32"
-      IA: 
-      - Iowa
-      - "19"
-      KS: 
-      - Kansas
-      - "20"
-      OK: 
-      - Oklahoma
-      - "40"
-      NH: 
-      - New Hampshire
-      - "33"
+      FL: Florida
+      GA: Georgia
+      GU: Guam
+      HI: Hawaii
+      IA: Iowa
+      ID: Idaho
+      IL: Illinois
+      IN: Indiana
+      KS: Kansas
+      KY: Kentucky
+      LA: Louisiana
+      ME: Maine
+      MH: Marshall Islands
+      MD: Maryland
+      MA: Massachusetts
+      MI: Michigan
+      MN: Minnesota
+      MS: Mississippi
+      MO: Missouri
+      MT: Montana
+      NE: Nebraska
+      NV: Nevada
+      NH: New Hampshire
+      NJ: New Jersey
+      NM: New Mexico
+      NY: New York
+      NC: North Carolina
+      ND: North Dakota
+      MP: Northern Mariana Islands
+      OH: Ohio
+      OK: Oklahoma
+      OR: Oregon
+      PW: Palau
+      PA: Pennsylvania
+      PR: Puerto Rico
+      RI: Rhode Island
+      SC: South Carolina
+      SD: South Dakota
+      TN: Tennessee
+      TX: Texas
+      UT: Utah
+      VT: Vermont
+      VI: Virgin Islands
+      VA: Virginia
+      WA: Washington
+      WV: West Virginia
+      WI: Wisconsin
+      WY: Wyoming
+
   BV:
     :name: Bouvet Island
     :states: {}

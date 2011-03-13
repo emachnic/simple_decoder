@@ -1,4 +1,9 @@
-=decoder
+=simple_decoder
+
+  Forked from bcardarella's decoder because I wanted an easier way to use the
+  states in a select box. I got rid of the FIPS codes and put the US states
+  in alphabetical order by name because it makes more sense if you have more
+  than the standard 50 states.
 
 = Usage
 
@@ -11,20 +16,6 @@
  => "Massachusetts"
  
  Currently the yaml files are still quite incomplete. Please fork and populate!
- 
-= FIPS
- http://en.wikipedia.org/wiki/Federal_Information_Processing_Standard
- Certain US States have FIPS codes. You can either get the code for a state
- or look up a state by its FIPS code:
- 
- >> Decoder.i18n = :en
- >> country = Decoder::Countries[:US]
- >> state = country[:MA]
- >> state.fips
- => 25
- >> state = country.by_fips(25)
- >> state.to_s
- => "Massachusetts"
  
 = i18n
  When adding a new language please use the ISO 639-1 Code 2-letter standard.
