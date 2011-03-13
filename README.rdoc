@@ -5,6 +5,12 @@
   in alphabetical order by name because it makes more sense if you have more
   than the standard 50 states.
 
+= Installation
+
+  Add to Gemfile
+
+  gem 'decoder', :git => 'git@github.com:emachnic/simple_decoder.git'
+
 = Usage
 
  >> Decoder.i18n = :en
