@@ -22,9 +22,9 @@ Add to Gemfile
 
 In your Views:
   select_tag :tag_name, options_for_select(Decoder::Countries[:US].states.invert)
- 
- Currently the yaml files are still quite incomplete. Please fork and populate!
- 
+
+Currently the yaml files are still quite incomplete. Please fork and populate!
+
 = i18n
  When adding a new language please use the ISO 639-1 Code 2-letter standard.
  You can find the appropriate code for a given language here:
