@@ -12,13 +12,16 @@ Add to Gemfile
 
 = Usage
 
- >> Decoder.i18n = :en
- >> country = Decoder::Countries[:US]
- >> country.to_s
- => "United States"
- >> state = country[:MA]
- >> state.to_s
- => "Massachusetts"
+  >> Decoder.i18n = :en
+  >> country = Decoder::Countries[:US]
+  >> country.to_s
+  => "United States"
+  >> state = country[:MA]
+  >> state.to_s
+  => "Massachusetts"
+
+In your Views:
+  select_tag :tag_name, options_for_select(Decoder::Countries[:US].states.invert)
  
  Currently the yaml files are still quite incomplete. Please fork and populate!
  
